@@ -77,8 +77,10 @@ export default function Footer() {
 
         <div className="border-t border-warm-gray/40 pt-8 text-center">
           <p className="text-off-white/80 text-sm">
-            Powered by ProspexCare. 2026 Holy Living Adult Family Home. All rights reserved.
+            2026 Holy Living Adult Family Home. All rights reserved.
           </p>
+          <br />
+          <p className="text-off-white/80 text-sm">Powered by ProspexCare. </p>
         </div>
       </div>
     </footer>

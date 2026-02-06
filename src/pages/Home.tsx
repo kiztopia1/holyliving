@@ -6,6 +6,7 @@ import WeOffer from '../components/WeOffer';
 import WhyChoose from '../components/WhyChoose';
 import Gallery from '../components/Gallery';
 import MeetOurTeam from '../components/MeetOurTeam';
+import HandwrittenReviews from '../components/HandwrittenReviews';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
@@ -20,6 +21,7 @@ export default function Home() {
       <WhyChoose />
       <Gallery />
       <MeetOurTeam />
+      <HandwrittenReviews />
       <Contact />
       <Footer />
     </div>

@@ -36,7 +36,7 @@ export default function Hero() {
 
       <div className="absolute inset-0 flex items-center justify-start px-6 sm:px-10 md:px-16 max-w-7xl mx-auto">
         <div className="max-w-xl sm:max-w-2xl">
-          <h1 className="text-charcoal text-3xl sm:text-4xl md:text-6xl font-bold mb-3 sm:mb-4 leading-tight">
+          <h1 className="text-black text-3xl sm:text-4xl md:text-6xl font-bold mb-3 sm:mb-4 leading-tight">
             Holy Living Adult Family Home
           </h1>
           <p className="!text-black text-lg sm:text-xl md:text-2xl font-semibold mb-6">
