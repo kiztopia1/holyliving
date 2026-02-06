@@ -9,7 +9,7 @@ export default function MeetOurTeam() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img
-              src="https://images.pexels.com/photos/7551608/pexels-photo-7551608.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="/imgs/living2.jpg"
               alt="Saba - Provider at Holy Living Adult Family Home"
               className="w-full h-[450px] object-cover"
             />

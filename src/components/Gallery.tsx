@@ -1,28 +1,17 @@
 const galleryItems = [
-  {
-    image: 'https://images.pexels.com/photos/6942057/pexels-photo-6942057.jpeg?auto=compress&cs=tinysrgb&w=800',
-    caption: 'Cozy living room with electric fireplace'
-  },
-  {
-    image: 'https://images.pexels.com/photos/7551662/pexels-photo-7551662.jpeg?auto=compress&cs=tinysrgb&w=800',
-    caption: 'Welcoming entrance'
-  },
-  {
-    image: 'https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg?auto=compress&cs=tinysrgb&w=800',
-    caption: 'Wide, accessible hallways'
-  },
-  {
-    image: 'https://images.pexels.com/photos/7551608/pexels-photo-7551608.jpeg?auto=compress&cs=tinysrgb&w=800',
-    caption: 'Comfortable private rooms'
-  },
-  {
-    image: 'https://images.pexels.com/photos/7551659/pexels-photo-7551659.jpeg?auto=compress&cs=tinysrgb&w=800',
-    caption: 'Fully accessible bathrooms'
-  },
-  {
-    image: 'https://images.pexels.com/photos/7551608/pexels-photo-7551608.jpeg?auto=compress&cs=tinysrgb&w=800',
-    caption: 'Common areas'
-  }
+  { image: '/imgs/living.jpg', caption: 'Cozy living room' },
+  { image: '/imgs/living2.jpg', caption: 'Living area' },
+  { image: '/imgs/outside.png', caption: 'Welcoming entrance' },
+  { image: '/imgs/outside2.jpg', caption: 'Exterior and grounds' },
+  { image: '/imgs/corridor-port.jpg', caption: 'Wide, accessible hallways' },
+  { image: '/imgs/corridor-port2.jpg', caption: 'Hallway' },
+  { image: '/imgs/room.jpg', caption: 'Comfortable private room' },
+  { image: '/imgs/room2.jpg', caption: 'Private room' },
+  { image: '/imgs/room3.jpg', caption: 'Private room' },
+  { image: '/imgs/room4.jpg', caption: 'Private room' },
+  { image: '/imgs/dining.jpg', caption: 'Dining area' },
+  { image: '/imgs/toilet.jpg', caption: 'Fully accessible bathroom' },
+  { image: '/imgs/toilet2.png', caption: 'Accessible bathroom' }
 ];
 
 export default function Gallery() {

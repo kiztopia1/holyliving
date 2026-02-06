@@ -1,9 +1,13 @@
 import { useEffect, useState } from 'react';
 
 const slides = [
-  'https://images.pexels.com/photos/6942057/pexels-photo-6942057.jpeg?auto=compress&cs=tinysrgb&w=1920',
-  'https://images.pexels.com/photos/7551662/pexels-photo-7551662.jpeg?auto=compress&cs=tinysrgb&w=1920',
-  'https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg?auto=compress&cs=tinysrgb&w=1920'
+  '/imgs/living2.jpg',
+  '/imgs/outside.png',
+
+    '/imgs/living.jpg',
+  '/imgs/room2.jpg',
+  '/imgs/outside2.jpg',
+
 ];
 
 export default function Hero() {
@@ -17,7 +21,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="relative h-[600px] overflow-hidden" id="home">
+    <div className="relative h-[520px] sm:h-[600px] overflow-hidden" id="home">
       {slides.map((src, index) => (
         <div
           key={index}
@@ -26,31 +30,28 @@ export default function Hero() {
           }`}
         >
           <img src={src} alt="" className="w-full h-full object-cover" />
-          <div className="absolute inset-0 bg-primary/50" />
+          <div className="absolute inset-0 bg-primary/15" />
         </div>
       ))}
 
-      <div className="absolute inset-0 flex items-center justify-start px-16 max-w-7xl mx-auto">
-        <div className="text-charcoal max-w-2xl">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4 leading-tight">
+      <div className="absolute inset-0 flex items-center justify-start px-6 sm:px-10 md:px-16 max-w-7xl mx-auto">
+        <div className="max-w-xl sm:max-w-2xl">
+          <h1 className="text-charcoal text-3xl sm:text-4xl md:text-6xl font-bold mb-3 sm:mb-4 leading-tight">
             Holy Living Adult Family Home
           </h1>
-          <p className="text-2xl font-semibold mb-4">
+          <p className="!text-black text-lg sm:text-xl md:text-2xl font-semibold mb-6">
             Where Compassionate Care Feels Like Family
           </p>
-          <p className="text-lg mb-8 opacity-95">
-            Experience truly personalized care in a beautiful home environment where your loved one will feel safe, valued, and cared for like family.
-          </p>
-          <div className="flex gap-4">
+          <div className="flex gap-3 sm:gap-4 flex-nowrap">
             <a
               href="#contact"
-              className="bg-primary text-charcoal px-8 py-3 rounded font-medium hover:bg-secondary transition"
+              className="bg-primary text-charcoal px-5 sm:px-8 py-2.5 sm:py-3 rounded font-semibold hover:bg-secondary transition whitespace-nowrap text-sm sm:text-base"
             >
               Schedule a Tour
             </a>
             <a
               href="tel:206-412-5640"
-              className="bg-white/90 text-charcoal px-8 py-3 rounded font-medium hover:bg-white transition border-2 border-charcoal/20"
+              className="bg-white/90 text-charcoal px-5 sm:px-8 py-2.5 sm:py-3 rounded font-semibold hover:bg-white transition border-2 border-charcoal/20 whitespace-nowrap text-sm sm:text-base"
             >
               Call Us Today
             </a>

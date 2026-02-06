@@ -1,11 +1,12 @@
-import { Phone, Mail, MapPin, ChevronRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { Phone, Mail, MapPin, ChevronRight, Star } from 'lucide-react';
 
 const quickLinks = [
   { label: 'Home', href: '#home' },
   { label: 'About Us', href: '#about' },
   { label: 'Our Care', href: '#care' },
   { label: 'Gallery', href: '#gallery' },
-  { label: 'Contact', href: '#contact' }
+  { label: 'Contact', href: '#contact' },
 ];
 
 export default function Footer() {
@@ -64,6 +65,13 @@ export default function Footer() {
             <p className="text-off-white/80 text-sm mt-2">
               Tours by appointment
             </p>
+            <Link
+              to="/review"
+              className="mt-4 inline-flex items-center gap-2 bg-primary text-charcoal px-5 py-2.5 rounded-lg font-medium hover:bg-secondary transition text-sm"
+            >
+              <Star size={18} />
+              Review Us
+            </Link>
           </div>
         </div>
 

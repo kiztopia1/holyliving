@@ -5,7 +5,7 @@ export default function AboutUs() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img
-              src="https://images.pexels.com/photos/7551608/pexels-photo-7551608.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="/imgs/living.jpg"
               alt="Caregiver with elderly resident at Holy Living"
               className="w-full h-[500px] object-cover"
             />
