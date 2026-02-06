@@ -33,13 +33,13 @@ export default function Navigation() {
           ))}
         </div>
 
-        {/* Center: Logo (column only as wide as the image) */}
-        <div className="flex justify-center w-fit">
+        {/* Center: Logo (column only as wide as the image); left-aligned on mobile */}
+        <div className="flex justify-start md:justify-center w-fit">
           <a href="#home" className="flex items-center focus:outline-none shrink-0">
             <img
               src="/logo.jpg"
               alt="Holy Living Adult Family Home"
-              className="h-16 w-auto object-contain md:h-20 block mx-16"
+              className="h-16 w-auto object-contain md:h-20 block mx-0 md:mx-16"
             />
           </a>
         </div>
