@@ -46,9 +46,9 @@ export default function Footer() {
                   Shoreline, WA 98155
                 </span>
               </div>
-              <a href="tel:206-412-5640" className="flex items-center gap-3 text-off-white hover:text-primary transition">
+              <a href="tel:425-921-6842" className="flex items-center gap-3 text-off-white hover:text-primary transition">
                 <Phone size={20} className="text-primary flex-shrink-0" />
-                <span>206-412-5640</span>
+                <span>425-921-6842</span>
               </a>
               <a href="mailto:holylivingss@gmail.com" className="flex items-center gap-3 text-off-white hover:text-primary transition">
                 <Mail size={20} className="text-primary flex-shrink-0" />

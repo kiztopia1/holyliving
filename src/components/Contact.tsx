@@ -35,9 +35,9 @@ export default function Contact() {
                 <MapPin size={22} className="flex-shrink-0 mt-0.5" />
                 <span>{ADDRESS}</span>
               </a>
-              <a href="tel:206-412-5640" className="flex items-center gap-3 text-warm-gray hover:text-primary transition">
+              <a href="tel:425-921-6842" className="flex items-center gap-3 text-warm-gray hover:text-primary transition">
                 <Phone size={22} className="flex-shrink-0" />
-                <span>206-412-5640</span>
+                <span>425-921-6842</span>
               </a>
               <a href="tel:206-816-2447" className="flex items-center gap-3 text-warm-gray hover:text-primary transition">
                 <Phone size={22} className="flex-shrink-0" />

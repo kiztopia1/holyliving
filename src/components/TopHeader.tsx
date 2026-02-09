@@ -4,9 +4,9 @@ export default function TopHeader() {
   return (
     <div className="bg-primary text-charcoal py-1.5 px-4 text-sm sm:text-base">
       <div className="max-w-7xl mx-auto flex justify-evenly items-center flex-wrap gap-3 sm:gap-4">
-        <a href="tel:206-412-5640" className="flex items-center gap-2 hover:text-warm-gray transition shrink-0">
+        <a href="tel:425-921-6842" className="flex items-center gap-2 hover:text-warm-gray transition shrink-0">
           <Phone size={14} />
-          <span className="whitespace-nowrap">(206) 412-5640</span>
+          <span className="whitespace-nowrap">(425) 921-6842</span>
         </a>
         <a
           href="mailto:holylivingss@gmail.com"

@@ -50,7 +50,7 @@ export default function Hero() {
               Schedule a Tour
             </a>
             <a
-              href="tel:206-412-5640"
+              href="tel:425-921-6842"
               className="bg-white/90 text-charcoal px-5 sm:px-8 py-2.5 sm:py-3 rounded font-semibold hover:bg-white transition border-2 border-charcoal/20 whitespace-nowrap text-sm sm:text-base"
             >
               Call Us Today

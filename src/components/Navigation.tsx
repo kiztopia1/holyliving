@@ -127,8 +127,8 @@ export default function Navigation() {
                 </a>
               )
             )}
-            <a href="tel:206-412-5640" className="text-charcoal hover:text-primary font-medium transition">
-              Call Now: (206) 412-5640
+            <a href="tel:425-921-6842" className="text-charcoal hover:text-primary font-medium transition">
+              Call Now: (425) 921-6842
             </a>
           </div>
           <a
