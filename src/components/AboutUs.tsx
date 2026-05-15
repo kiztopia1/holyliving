@@ -3,12 +3,14 @@ export default function AboutUs() {
     <section className="py-20 px-4 bg-off-white" id="about">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="rounded-2xl overflow-hidden shadow-lg">
-            <img
-              src="/imgs/living.jpg"
-              alt="Caregiver with elderly resident at Holy Living"
-              className="w-full h-[500px] object-cover"
-            />
+          <div className="group relative z-0 rounded-2xl bg-white shadow-lg ring-1 ring-charcoal/5 transition-all duration-300 ease-out hover:z-20 hover:-translate-y-2 hover:scale-[1.03] hover:shadow-2xl hover:ring-charcoal/10">
+            <div className="overflow-hidden rounded-2xl">
+              <img
+                src="/imgs/aquarium.jpg"
+                alt="Living room with aquarium at Holy Living"
+                className="w-full h-[500px] object-cover transition-transform duration-500 ease-out group-hover:scale-110"
+              />
+            </div>
           </div>
 
           <div>

@@ -31,19 +31,19 @@ export default function Contact() {
         <div className="grid lg:grid-cols-2 gap-12">
           <div>
             <div className="space-y-4 mb-8">
-              <a href={`https://maps.google.com/?q=${encodeURIComponent(ADDRESS)}`} target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 text-warm-gray hover:text-primary transition">
+              <a href={`https://maps.google.com/?q=${encodeURIComponent(ADDRESS)}`} target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 text-warm-gray transition hover:text-charcoal hover:underline hover:decoration-2 hover:decoration-primary hover:underline-offset-4">
                 <MapPin size={22} className="flex-shrink-0 mt-0.5" />
                 <span>{ADDRESS}</span>
               </a>
-              <a href="tel:425-921-6842" className="flex items-center gap-3 text-warm-gray hover:text-primary transition">
+              <a href="tel:425-921-6842" className="flex items-center gap-3 text-warm-gray transition hover:text-charcoal hover:underline hover:decoration-2 hover:decoration-primary hover:underline-offset-4">
                 <Phone size={22} className="flex-shrink-0" />
                 <span>425-921-6842</span>
               </a>
-              <a href="tel:206-816-2447" className="flex items-center gap-3 text-warm-gray hover:text-primary transition">
+              <a href="tel:206-816-2447" className="flex items-center gap-3 text-warm-gray transition hover:text-charcoal hover:underline hover:decoration-2 hover:decoration-primary hover:underline-offset-4">
                 <Phone size={22} className="flex-shrink-0" />
                 <span>206-816-2447 (Owner/Manager)</span>
               </a>
-              <a href="mailto:holylivingss@gmail.com" className="flex items-center gap-3 text-warm-gray hover:text-primary transition">
+              <a href="mailto:holylivingss@gmail.com" className="flex items-center gap-3 text-warm-gray transition hover:text-charcoal hover:underline hover:decoration-2 hover:decoration-primary hover:underline-offset-4">
                 <Mail size={22} className="flex-shrink-0" />
                 <span>holylivingss@gmail.com</span>
               </a>

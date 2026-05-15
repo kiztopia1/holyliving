@@ -26,7 +26,7 @@ export default function Navigation() {
             <a
               key={link.href}
               href={link.href}
-              className="text-charcoal hover:text-primary transition"
+              className="text-charcoal transition hover:underline hover:decoration-2 hover:decoration-primary hover:underline-offset-4"
             >
               {link.label}
             </a>
@@ -51,7 +51,7 @@ export default function Navigation() {
               <Link
                 key={link.href}
                 to={link.href}
-                className="text-charcoal hover:text-primary transition"
+                className="text-charcoal transition hover:underline hover:decoration-2 hover:decoration-primary hover:underline-offset-4"
                 onClick={() => setOpen(false)}
               >
                 {link.label}
@@ -60,7 +60,7 @@ export default function Navigation() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-charcoal hover:text-primary transition"
+                className="text-charcoal transition hover:underline hover:decoration-2 hover:decoration-primary hover:underline-offset-4"
               >
                 {link.label}
               </a>
@@ -76,7 +76,7 @@ export default function Navigation() {
 
         <button
           type="button"
-          className="md:hidden flex items-center justify-center rounded-md border border-charcoal/20 p-2 text-charcoal hover:bg-charcoal/5 focus:outline-none"
+          className="md:hidden flex items-center justify-center rounded-md border border-charcoal/20 p-2 text-charcoal hover:bg-charcoal/10 hover:text-charcoal focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
           aria-label="Toggle navigation menu"
           onClick={() => setOpen((prev) => !prev)}
         >
@@ -100,7 +100,7 @@ export default function Navigation() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-charcoal hover:text-primary font-medium transition"
+                className="text-charcoal font-medium transition hover:underline hover:decoration-2 hover:decoration-primary hover:underline-offset-4"
                 onClick={() => setOpen(false)}
               >
                 {link.label}
@@ -111,7 +111,7 @@ export default function Navigation() {
                 <Link
                   key={link.href}
                   to={link.href}
-                  className="text-charcoal hover:text-primary font-medium transition"
+                  className="text-charcoal font-medium transition hover:underline hover:decoration-2 hover:decoration-primary hover:underline-offset-4"
                   onClick={() => setOpen(false)}
                 >
                   {link.label}
@@ -120,14 +120,14 @@ export default function Navigation() {
                 <a
                   key={link.href}
                   href={link.href}
-                  className="text-charcoal hover:text-primary font-medium transition"
+                  className="text-charcoal font-medium transition hover:underline hover:decoration-2 hover:decoration-primary hover:underline-offset-4"
                   onClick={() => setOpen(false)}
                 >
                   {link.label}
                 </a>
               )
             )}
-            <a href="tel:425-921-6842" className="text-charcoal hover:text-primary font-medium transition">
+            <a href="tel:425-921-6842" className="text-charcoal font-medium transition hover:underline hover:decoration-2 hover:decoration-primary hover:underline-offset-4">
               Call Now: (425) 921-6842
             </a>
           </div>

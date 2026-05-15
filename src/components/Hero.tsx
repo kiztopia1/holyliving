@@ -1,13 +1,11 @@
 import { useEffect, useState } from 'react';
 
 const slides = [
-  '/imgs/living2.jpg',
+  '/imgs/aquarium.jpg',
   '/imgs/outside.png',
-
-    '/imgs/living.jpg',
+  '/imgs/living2.jpg',
   '/imgs/room2.jpg',
   '/imgs/outside2.jpg',
-
 ];
 
 export default function Hero() {
@@ -30,7 +28,7 @@ export default function Hero() {
           }`}
         >
           <img src={src} alt="" className="w-full h-full object-cover" />
-          <div className="absolute inset-0 bg-primary/15" />
+          {/* <div className="absolute inset-0 bg-primary/15" /> */}
         </div>
       ))}
 
