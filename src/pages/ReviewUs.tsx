@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Star, MessageCircle, ArrowLeft } from 'lucide-react';
+import SeoHead from '../components/SeoHead';
+import { REVIEW_SEO } from '../lib/seo';
 
 // Replace with your actual Google review URL (from Google Maps or Business Profile)
 const GOOGLE_REVIEW_URL =
@@ -33,6 +35,7 @@ export default function ReviewUs() {
         backgroundPosition: 'center',
       }}
     >
+      <SeoHead seo={REVIEW_SEO} />
       <div className="absolute inset-0 bg-charcoal/60" aria-hidden="true" />
       <Link
         to="/"

@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 import { Menu, X, Phone } from 'lucide-react';
 
 const navLinks = [
-  { href: '#home', label: 'Home' },
-  { href: '#about', label: 'About Us' },
-  { href: '#care', label: 'Services' },
-  { href: '#gallery', label: 'Gallery' },
+  { href: '/#home', label: 'Home' },
+  { href: '/#about', label: 'About Us' },
+  { href: '/#care', label: 'Services' },
+  { href: '/#gallery', label: 'Gallery' },
   { href: '/review', label: 'Testimonials', isRoute: true },
-  { href: '#team', label: 'Team' },
-  { href: '#contact', label: 'Contact Us' },
+  { href: '/#team', label: 'Team' },
+  { href: '/#contact', label: 'Contact Us' },
 ] as const;
 
 const linkClass =
@@ -37,7 +37,7 @@ export default function Navigation() {
       >
         <div className="max-w-[1400px] mx-auto px-4 md:px-6">
           <div className="flex items-center justify-between h-14 md:h-16">
-            <a href="#home" className="flex items-center gap-2 shrink-0 min-w-0">
+            <Link to="/" className="flex items-center gap-2 shrink-0 min-w-0">
               <img
                 src="/logo.jpg"
                 alt="Holy Living Adult Family Home"
@@ -51,7 +51,7 @@ export default function Navigation() {
                 </span>
                 <span className="text-warm-gray text-[10px] md:text-xs">Where care feels like family</span>
               </div>
-            </a>
+            </Link>
 
             <nav className="hidden lg:flex items-center gap-5 xl:gap-6">
               {navLinks.map((link) =>
@@ -76,7 +76,7 @@ export default function Navigation() {
                 Call Now
               </a>
               <a
-                href="#contact"
+                href="/#contact"
                 className="inline-flex items-center justify-center rounded-full h-9 px-4 text-sm font-semibold border border-charcoal/20 text-charcoal hover:bg-off-white transition-colors"
               >
                 Schedule A Tour
@@ -127,7 +127,7 @@ export default function Navigation() {
                     (425) 921-6842
                   </a>
                   <a
-                    href="#contact"
+                    href="/#contact"
                     className="inline-flex w-full items-center justify-center rounded-full h-10 text-sm font-semibold border border-charcoal/20 text-charcoal hover:bg-off-white transition-colors"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >

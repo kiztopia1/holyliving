@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, ChevronRight, Star } from 'lucide-react';
+import { SEO_PAGES } from '../lib/seo';
 
 const quickLinks = [
-  { label: 'Home', href: '#home' },
-  { label: 'About Us', href: '#about' },
-  { label: 'Our Care', href: '#care' },
-  { label: 'Gallery', href: '#gallery' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Home', href: '/#home' },
+  { label: 'About Us', href: '/#about' },
+  { label: 'Our Care', href: '/#care' },
+  { label: 'Gallery', href: '/#gallery' },
+  { label: 'Contact', href: '/#contact' },
 ];
 
 export default function Footer() {
@@ -31,6 +32,20 @@ export default function Footer() {
                     <ChevronRight size={16} className="group-hover:translate-x-1 transition" />
                     {link.label}
                   </a>
+                </li>
+              ))}
+            </ul>
+            <h4 className="font-bold text-lg mt-8 mb-4 text-white">Care Pages</h4>
+            <ul className="space-y-3">
+              {SEO_PAGES.map((page) => (
+                <li key={page.slug}>
+                  <Link
+                    to={`/${page.slug}`}
+                    className="flex items-center gap-2 text-off-white hover:text-primary transition group text-sm"
+                  >
+                    <ChevronRight size={16} className="group-hover:translate-x-1 transition shrink-0" />
+                    {page.h1}
+                  </Link>
                 </li>
               ))}
             </ul>

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Utility page — not for search results
+Disallow: /review
+
+Sitemap: https://www.holylivingafh.com/sitemap.xml
