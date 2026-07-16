@@ -63,14 +63,14 @@ export const SEO_PAGES: SeoPageContent[] = [
   {
     slug: 'adult-family-home-shoreline',
     seo: {
-      title: 'Adult Family Home in Shoreline, WA | Holy Living',
+      title: 'Adult Family Home in Seattle WA',
       description:
         'Licensed adult family home in Shoreline, WA with only 6 residents, on-site ownership, a 1:3 caregiver ratio, and personalized senior care. Tour Holy Living today.',
       path: '/adult-family-home-shoreline',
       keywords:
-        'adult family home Shoreline, AFH Shoreline WA, senior home care Shoreline, small group home King County',
+        'adult family home Seattle WA, adult family home Shoreline, AFH Seattle, senior home care Seattle, small group home King County',
     },
-    h1: 'Adult Family Home in Shoreline, WA',
+    h1: 'Adult Family Home in Seattle WA',
     intro:
       'Holy Living is a Washington State licensed adult family home in Shoreline offering personalized senior care in a true residential setting—never a large institution.',
     sections: [
@@ -92,22 +92,22 @@ export const SEO_PAGES: SeoPageContent[] = [
       },
     ],
     related: [
-      { href: '/memory-care-shoreline', label: 'Memory care in Shoreline' },
-      { href: '/assisted-living-shoreline', label: 'Assisted living alternative' },
-      { href: '/hospice-care-shoreline', label: 'Hospice care' },
+      { href: '/memory-care-shoreline', label: 'Memory Care in Seattle WA' },
+      { href: '/assisted-living-shoreline', label: 'Assisted Living in Seattle WA' },
+      { href: '/hospice-care-shoreline', label: 'Hospice Care in Seattle WA' },
     ],
   },
   {
     slug: 'memory-care-shoreline',
     seo: {
-      title: 'Memory Care in Shoreline, WA | Dementia & Alzheimer\'s AFH',
+      title: 'Memory Care in Seattle WA',
       description:
         'Small-home memory care in Shoreline for dementia and Alzheimer\'s. Consistent routines, trained caregivers, and a calm 6-resident setting. Call to schedule a tour.',
       path: '/memory-care-shoreline',
       keywords:
-        'memory care Shoreline WA, dementia care Shoreline, Alzheimer\'s adult family home, memory care near Seattle',
+        'memory care Seattle WA, dementia care Seattle, Alzheimer\'s adult family home, memory care Shoreline',
     },
-    h1: 'Memory Care in Shoreline, WA',
+    h1: 'Memory Care in Seattle WA',
     intro:
       'Looking for memory care in Shoreline without the overwhelm of a large facility? Our six-resident adult family home offers structured, compassionate support for dementia and Alzheimer\'s.',
     sections: [
@@ -129,22 +129,22 @@ export const SEO_PAGES: SeoPageContent[] = [
       },
     ],
     related: [
-      { href: '/adult-family-home-shoreline', label: 'Adult family home overview' },
-      { href: '/assisted-living-shoreline', label: 'Assisted living alternative' },
-      { href: '/hospice-care-shoreline', label: 'Hospice care' },
+      { href: '/adult-family-home-shoreline', label: 'Adult Family Home in Seattle WA' },
+      { href: '/assisted-living-shoreline', label: 'Assisted Living in Seattle WA' },
+      { href: '/hospice-care-shoreline', label: 'Hospice Care in Seattle WA' },
     ],
   },
   {
     slug: 'assisted-living-shoreline',
     seo: {
-      title: 'Assisted Living Alternative in Shoreline | Small AFH Care',
+      title: 'Assisted Living in Seattle WA',
       description:
-        'Prefer assisted living in Shoreline without a large campus? Our licensed adult family home offers daily living help, meals, and 24/7 care for just six residents.',
+        'Prefer assisted living in Seattle without a large campus? Our licensed adult family home in Shoreline offers daily living help, meals, and 24/7 care for just six residents.',
       path: '/assisted-living-shoreline',
       keywords:
-        'assisted living Shoreline WA, assisted living alternative Shoreline, small assisted living King County, senior care Shoreline',
+        'assisted living Seattle WA, assisted living alternative Seattle, small assisted living King County, senior care Shoreline',
     },
-    h1: 'Assisted Living Alternative in Shoreline',
+    h1: 'Assisted Living in Seattle WA',
     intro:
       'If you are comparing assisted living in Shoreline, consider a licensed adult family home. Holy Living delivers the daily help of assisted living in a warmer, smaller home.',
     sections: [
@@ -166,22 +166,22 @@ export const SEO_PAGES: SeoPageContent[] = [
       },
     ],
     related: [
-      { href: '/adult-family-home-shoreline', label: 'Adult family home in Shoreline' },
-      { href: '/memory-care-shoreline', label: 'Memory care' },
-      { href: '/hospice-care-shoreline', label: 'Hospice care' },
+      { href: '/adult-family-home-shoreline', label: 'Adult Family Home in Seattle WA' },
+      { href: '/memory-care-shoreline', label: 'Memory Care in Seattle WA' },
+      { href: '/hospice-care-shoreline', label: 'Hospice Care in Seattle WA' },
     ],
   },
   {
     slug: 'hospice-care-shoreline',
     seo: {
-      title: 'Hospice Care in Shoreline, WA | Comfort-Focused AFH',
+      title: 'Hospice Care in Seattle WA',
       description:
-        'Dignified hospice and end-of-life care in a Shoreline adult family home. Comfort, presence, and personalized support for residents and families. Call to learn more.',
+        'Dignified hospice and end-of-life care in a Shoreline adult family home near Seattle. Comfort, presence, and personalized support for residents and families. Call to learn more.',
       path: '/hospice-care-shoreline',
       keywords:
-        'hospice care Shoreline WA, end of life care Shoreline, adult family home hospice, comfort care near Seattle',
+        'hospice care Seattle WA, end of life care Seattle, adult family home hospice, comfort care Shoreline',
     },
-    h1: 'Hospice Care in Shoreline, WA',
+    h1: 'Hospice Care in Seattle WA',
     intro:
       'When comfort and dignity matter most, Holy Living provides hospice and end-of-life care in a calm, home-like Shoreline setting—not a busy institutional ward.',
     sections: [
@@ -203,9 +203,9 @@ export const SEO_PAGES: SeoPageContent[] = [
       },
     ],
     related: [
-      { href: '/adult-family-home-shoreline', label: 'Adult family home in Shoreline' },
-      { href: '/memory-care-shoreline', label: 'Memory care' },
-      { href: '/assisted-living-shoreline', label: 'Assisted living alternative' },
+      { href: '/adult-family-home-shoreline', label: 'Adult Family Home in Seattle WA' },
+      { href: '/memory-care-shoreline', label: 'Memory Care in Seattle WA' },
+      { href: '/assisted-living-shoreline', label: 'Assisted Living in Seattle WA' },
     ],
   },
 ];
